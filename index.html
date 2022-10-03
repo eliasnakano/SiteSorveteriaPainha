@@ -11,7 +11,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;1,300&family=Oswald:wght@300&display=swap" rel="stylesheet">
-
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
@@ -70,6 +69,43 @@
         </div>
     </div>
 </main>
+
+<hr class="linha_horizontal">
+
+<!--FORMULARIO -->
+<div class="formulario">
+    
+    <form class="form" action="">
+
+      <div class="form-item col-responsive">
+        <input class="input" type="text" name="nome" required="required" id="name"/>
+        <label class="label" for="nome">Nome</label>
+      </div>
+      
+      <div class="form-item col-responsive">
+        <input class="input" type="EMAIL" name="email" required="required" id="email"/>
+        <label class="label" for="email">E-mail</label>
+      </div>
+      
+      <div class="form-item">
+        <input class="input" type="text" name="assunto" required="required" id="assunto"/>
+        <label class="label" for="assunto">Assunto</label>
+      </div>
+      
+      <div class="form-item">
+        <textarea class="textarea" name="mensagem" required="required" id="textarea"></textarea>
+        <label class="label" for="mensagem">mensagem</label>
+      </div>
+      
+      <div class="form-item">
+        <input class="botao" type="submit" value="Enviar"/>
+      </div>
+
+    </form>
+
+</div><!--Class Formulario-->
+
+
 <!--rodapé-->
 <footer>
     <p><span>   Sorveteria do Painha - Todos os direitos reservados &copy; 2022</span> </p>

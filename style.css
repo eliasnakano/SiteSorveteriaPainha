@@ -3,6 +3,7 @@
         padding: 0;
         box-sizing: border-box;
         font-family: 'josefin sans';
+        background-color: #F79F1F!important;
     }
     body a {
         text-decoration: none;
@@ -11,7 +12,7 @@
         display: flex;
         justify-content: space-around;
         margin: 0 auto;
-        background-color: #8b53fa;;
+        background-color: #b21f89;
         height: 86px;
         align-items: center;
         padding: 1rem 0;
@@ -39,12 +40,12 @@
         text-transform: uppercase;
         font-family: 'Oswald', sans-serif;
         text-shadow: 1px 1px 1px #000;
-        color:#f6bf44; 
+        color:#f4ad35;
     }
     
     .header-navbar ul li a:hover {
-        color: #1fabce;;
-        text-shadow: 1px 1px #000000;
+        color:#C4E538;
+        text-shadow: 1px 1px 1px #000000;
     }
     
     .carousel-inner>.carousel-item>img {
@@ -144,7 +145,7 @@
     footer {
         text-align: center;
         padding-bottom: 2rem;
-        background-color: #7844e3;
+        background-color: #b21f89;
         line-height: 65px;
         margin: 0 auto;
         height: 100%;
@@ -179,8 +180,8 @@
     }
     
     .header-social-media ul li a:hover {
-        color: #f6bf44;
-        text-shadow: 1px 1px 1px #1fabce;
+        color: #F79F1F;
+        text-shadow: 1px 1px 1px #000;
     }
     
     .logo-menu ul {
@@ -189,6 +190,7 @@
         font-size: 0.6rem;
         color: #f6bf44;
         letter-spacing: 2px;
+        text-shadow: 1px 1px 1px #000;
     }
     
     .logo-menu ul li {
@@ -227,7 +229,6 @@
         }
     }
 
-    
     .h1pro {
         color:#1fabce;
         text-decoration: none;
@@ -238,3 +239,131 @@
         font-weight: bold;
         font-family: 'josefin sans';
     }
+
+    .linha_horizontal{
+        margin: 0;
+        padding: 0;
+        background-color: #EE5A24;
+
+       
+
+    }
+
+/*Formulário*/
+
+input, textarea {
+
+  border: 0;
+  outline: 0;
+  font-size: 1.2em;
+  background: transparent;
+  color: #053896;
+  position: relative;
+  font-family: 'open_sansregular';
+
+}
+
+textarea { resize: none; }
+
+.formulario {
+
+  max-width: 550px;
+  margin: 0 auto;
+  border-radius: 2px;
+
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.form-item {
+
+  position: relative;
+  width: 100%;
+  padding: 1em;
+
+}
+
+@media only screen and (min-width: 768px) {
+
+  .form-item.col-responsive { width: 50%; }
+
+}
+
+.form-item .textarea {
+
+  height: 10em;
+
+}
+.form-item .input, .form-item .textarea {
+
+  display: block;
+  padding: 1em;
+  width: 100%;
+  transition: all 0.3s;
+  border-bottom: 2px solid #56D4D9;
+
+}
+
+.form-item .input:focus, .form-item .textarea:focus {
+
+  border-bottom: 2px solid #333333;
+
+}
+
+.form-item .input:valid + .label, .form-item .input:focus + .label, .form-item .textarea:valid + .label, .form-item .textarea:focus + .label {
+
+  top: 1em;
+  left: 1em;
+  font-size: 0.9em;
+
+}
+
+.form-item .input:valid, .form-item .textarea:valid {
+
+  border-bottom: 2px solid #56D4D9;
+
+}
+
+.form-item .label {
+
+  position: absolute;
+  top: 2em;
+  left: 2em;
+  text-transform: capitalize;
+  transition: all 0.3s;
+
+}
+
+.form-item .botao {
+
+  display: block;
+  width:120px;
+  padding: 0.8em 0.6em;
+  border:2px #56D4D9 solid;
+  border-radius:3px; 
+  color: #56D4D9;
+  cursor: pointer;
+  transition: all 0.3s;
+
+}
+
+.form-item .botao:hover {
+
+  background: #1fabce;
+  color: #ffffff;
+  border:2px #828282 solid;
+
+}
+
+.form-item .botao:active {
+
+  background-color:#ff9000;
+  color:#ffffff;
+  border:2px #ff9000 solid; 
+
+}
+/*Formulário*/
